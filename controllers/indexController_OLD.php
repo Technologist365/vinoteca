@@ -3,8 +3,7 @@
 	//core
 	include("services/services.php");
 	
-	//request parameters
-	//$_GET['']
+
 	
 	//services
 	$vinosHome=seleccVinosHome();
