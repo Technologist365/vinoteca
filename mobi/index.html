@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>La Vinoteca</title>
+        <link rel="stylesheet" href="./css/jquery.mobile-1.0.min.css" />    
+        <link rel="stylesheet" href="./css/mobi.css" />     
+                
+        <script type="text/javascript" src="./js/jquery-1.6.4.min.js"></script>        
+        <script type="text/javascript" src="./js/jquery.mobile-1.0.min.js"></script>	
+    </head>
+    <body>
+        <div data-role="page" id="home" data-title="La Vinoteca">
+        
+            <div data-role="header" class="header-background"></div>
+            
+            <div data-role="content">
+                <div id="search">	
+                 	<form action="listaSearch.html" method="post" name="form_search_wine" id="form_search_wine">                    	
+                        <input type="search" name="search_keywords" id="search_keywords" 
+                               placeholder="localiza tus vinos preferidos" data-mini="true" />
+                     </form>       
+           		</div>   
+                
+                <div> 
+                    <h3 class="listview-header"> Selecciona la denominaci&oacute;n de origen:</h3>	
+                    <ul data-role="listview" data-inset="true">
+                        <li><a href="listaSearch.html" data-transition="slidedown"><h3>Ribera de duero</h3></a></li>
+                        <li><a href="listaSearch.html"><h3>Rioja</h3></a></li>
+                        <li><a href="listaSearch.html"><h3>Priorat</h3></a></li>                     
+                    </ul>	
+            	</div>
+            
+            <div class="footer-background">
+                <p>&copy; 2012 La Vinoteca</p>
+            </div>
+            
+        </div>
+    </body>
+</html>
+
